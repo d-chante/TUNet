@@ -1,0 +1,9 @@
+[Unit]
+Description=Tensorflow-Jupyter Notebook Server
+
+[Service]
+ExecStart=/home/$USER/Docker/Tensorflow-Notebook/run.sh
+
+[Install]
+WantedBy=multi-user.target
+
